@@ -13,6 +13,11 @@ import JS from './QA/JS';
 import ReactJs from './QA/ReactJs';
 import MongoDb from './QA/MongoDb';
 import CardFiles from './bangla version/CardFiles';
+import Bhtml from './bangla version/Bhtml';
+import BCss from './bangla version/BCss';
+import BJavascript from './bangla version/BJavascript';
+import BReact from './bangla version/BReact';
+import BMongodb from './bangla version/BMongodb';
 
 
 const router = createBrowserRouter([
@@ -43,6 +48,26 @@ const router = createBrowserRouter([
       {
         path: "/card",
         element:  <CardFiles></CardFiles> ,
+      },
+      {
+        path: "/bh",
+        element: <Bhtml></Bhtml> ,
+      },
+      {
+        path: "/bc",
+        element:  <BCss></BCss>,
+      },
+      {
+        path: "/bj",
+        element:  <BJavascript></BJavascript>,
+      },
+      {
+        path: "/br",
+        element:  <BReact></BReact>,
+      },
+      {
+        path: "/bm",
+        element:   <BMongodb></BMongodb>,
       },
       
     ],

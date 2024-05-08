@@ -18,9 +18,8 @@ const MongoDb = () => {
 
                          <p className=" mt-10  bg-[#30bdaa] p-3 rounded-xl text-xl font-bold">
                          Question 01 : What is MongoDB?
-Answer        : MongoDB is a document-oriented database that stores data in flexible, JSON-like 
-                      documents
-
+                         Answer        : MongoDB is a document-oriented database that stores data in flexible, JSON-like 
+                         documents
                          </p>
                          <br></br>
 
