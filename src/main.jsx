@@ -12,6 +12,7 @@ import HTml from './QA/HTml';
 import JS from './QA/JS';
 import ReactJs from './QA/ReactJs';
 import MongoDb from './QA/MongoDb';
+import CardFiles from './bangla version/CardFiles';
 
 
 const router = createBrowserRouter([
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: "/DB",
         element:  <MongoDb></MongoDb> ,
+      },
+      {
+        path: "/card",
+        element:  <CardFiles></CardFiles> ,
       },
       
     ],
