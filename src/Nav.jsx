@@ -79,7 +79,7 @@ useEffect(() => {
                 
                 <div className=" flex items-center gap-1">
                 <img className=" h-[60px]" src="https://i.ibb.co/YhdqHN2/question.png" alt="" />
-                <a className=" text-3xl font-bold text-[#6420AA]  ">APON<span className=" text-[#5DEBD7] ">iQ</span></a>
+                <a className=" text-3xl font-bold text-[#6420AA]  ">Minhaz<span className=" text-[#5DEBD7] ">iQ</span></a>
                 </div>
 
               </div>
